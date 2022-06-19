@@ -7,8 +7,8 @@
 /* Custom Properties, update these for your own design */
 
 :root {
-    --ff-primary: 'Lora', serif;
-    --ff-secondary: 'Roboto Slab', serif;
+    --ff-primary: 'Poppins', sans-serif;
+    --ff-secondary: 'Roboto', sans-serif;
     
     --fw-reg: 400;
     --fw-bold: 700;
