@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
-
 :root {
   --ff-primary: "Poppins", sans-serif;
   --ff-secondary: "Roboto", sans-serif;
@@ -144,7 +142,8 @@ h3 {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 1em;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .logo {
@@ -253,10 +252,16 @@ header {
 
 .intro {
   position: relative;
+  padding-top: 0;
 }
 
 .intro__img {
+  width: 60%;
+  height: 260px;
   box-shadow: var(--bs);
+  object-fit: cover; 
+  object-position: 100% 35%;
+  
 }
 
 .section__subtitle--intro {
@@ -350,6 +355,10 @@ header {
   box-shadow: var(--bs);
 }
 
+.about-me-flex {
+  display:flex;
+  flex-direction: column;
+}
 @media (min-width: 600px) {
   .about-me {
     display: grid;
@@ -380,6 +389,13 @@ header {
     position: relative;
     z-index: 2;
   }
+  
+.about-me-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
 }
 
 /* My Work */
