@@ -36,9 +36,9 @@
 /* General styles */
 
 /* endable this to add smooth scrolling */
-/* html {
+html {
     scroll-behavior: smooth;
-} */
+}
 
 body {
   background: var(--clr-light);
