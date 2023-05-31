@@ -1,179 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-    />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mariamaitbella Portfolio Website</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
-      crossorigin="anonymous"
-    />
 
-    <!-- Update these with your own fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,400;0,600;1,300&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <a href="index.html"><img width="100px" height="100px" src="img/mimilogo.png" alt="" /></a></div>
-      <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-      </button>
-      <nav    class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-          <li class="nav__item">
-            <a href="#services" class="nav__link">My Services</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About me</a>
-          </li>
-          <li class="nav__item">
-            <a href="#work" class="nav__link">My Work</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mariamaitbella Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.typekit.net/riw1rfd.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-    <!-- Introduction -->
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Hi, I am <strong>Mariam AIT BELLA</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-      <img
-      
-        src="./img/mimi.jpeg"
-        alt="a picture of Jane Smith smiling"
-        class="intro__img"
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">Mariam Ait Bella</a>
+    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item">
+          <a href="#services" class="nav__link">About</a>
+        </li>
+        <li class="nav__item">
+          <a href="#work" class="nav__link">Projects</a>
+        </li>
+        <li class="nav__item">
+          <a href="https://dev.to/mariamaitbella" target="_blank" class="nav__link">Blog</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-      />
-    </section>
-
-    <!-- My services -->
-    <section class="my-services" id="services">
-      <h2 class="section__title section__title--services">What I do</h2>
-      <div class="services">
-        <div class="service">
-          <h3>Frontend Development</h3>
-          <p>
-            I build amazing websites and user interfaces using html css javascript and React. 
-            I have an experience with some frameworks like Angular JS, React native, Flutter, Laravel and I have build many projects that you can find below.
-            
-          </p>
-        </div>
-        <!-- / service -->
-
-      </div>
-      <!-- / services -->
-
-      <a href="#work" class="btn">My Work</a>
-    </section>
-
-    <!-- About me -->
-    <section class="about-me" id="about">
-      <h2 class="section__title section__title--about">Who I am</h2>
-      <p class="section__subtitle section__subtitle--about">
-        Designer & developer
-      </p>
-
-      <div class="about-me__body">
-        <p>
-            I am a 21 year-old frontend web developer. 
-            I have got a bachelor's degree in comuputer engineering,
-            I am a "front-end dev career path" graduated from Scribma,
-            I love coding and creating awesome stuff for the web.
-
-        </p>
-        <div class="about-me-flex">        
-          <div >
-        <p><strong> Technologies I work with</strong></p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>React</li>
-                <li>PHP</li>
-                <li>Styled Components</li>
-                <li> Git</li>
-            </ul>
-        </div>
-        <div>
-        <p><strong> What I like</strong></p>
-        <ul>            
-            <li> Tech (<i>duh</i>) 💻</li>
-            <li>Travelling 🛫</li>
-            <li>Nature 🌳  </li>
-            <li>Photography 📸</li>
-            <li>Food 🥟 🍣 🍛 🍜</li>
-            <li>Music 🎵 🎸</li>
-            <li>Fashion 👜 </li>
-        </ul>
-          </div>
-</div>
-      </div>
-      </div>
-
-      <img
-        src="./img/mimi.jpeg"
-        alt="nature"
-        class="about-me__img"
-      />
-    </section>
-
-    <!-- My Work -->
-    <section class="my-work" id="work">
-      <h2 class="section__title section__title--work">My work</h2>
-      <p class="section__subtitle section__subtitle--work">
-        A selection of my range of work
-      </p>
-
-      <div class="portfolio">
-        <!-- Portfolio item 01 -->
-        <a target="_blank" href="https://dev.to/mariamaitbella/my-hometown-homepage-project-with-html-css-5gg1" class="portfolio__item">
-          <img width="400px" height="300px" style="object-fit: cover;" src="img/hometown.png" alt="" class="portfolio__img" />
-        </a>
-
-        <!-- Portfolio item 01 -->
-        <a target="_blank" href="https://dev.to/mariamaitbella/color-scheme-generator-js-project-6j8" class="portfolio__item">
-          <img width="400px" height="300px"  style="object-fit: cover;" src="img/color-scheme.png" alt="" class="portfolio__img" />
-        </a>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <!-- replace with your own email address -->
-      <a target="_blank" href="mailto:mariam.aitbella200@gmail.com" class="footer__link"
-        >mariam@gmail.com</a
-      >
+  <!-- Introduction -->
+  <section class="intro" id="home">
+    <h1 class="section__title--intro">
+      Hi, I'm Mariam<br /> <span class="animate-charcter">Frontend Developer</span>
+    </h1>
+    <div class="social-links">
       <ul class="social-list">
         <li class="social-list__item">
-          <a target="_blank" class="social-list__link" href="https://codepen.io">
-            <i class="fab fa-codepen"></i>
+          <a target="_blank" class="social-list__link" href="https://github.com/mariamaitbella">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+
+        <li class="social-list__item">
+          <a target="_blank" class="social-list__link" href="https://github.com/mariamaitbella">
+            <i class="fab fa-linkedin"></i>
           </a>
         </li>
         <li class="social-list__item">
-          <a target="_blank" class="social-list__link" href="http://dribbble.com">
-            <i class="fab fa-dribbble"></i>
+          <a target="_blank" class="social-list__link" href="mailto: mariam.aitbella200@gmail.com">
+            <i class="fa fa-envelope"></i>
           </a>
         </li>
         <li class="social-list__item">
@@ -181,14 +64,177 @@
             <i class="fab fa-twitter"></i>
           </a>
         </li>
-        <li class="social-list__item">
-          <a target="_blank" class="social-list__link" href="https://github.com/mariamaitbella">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
       </ul>
-    </footer>
+    </div>
+    <p>
+      Passionate front-end developer 💻 proficient in HTML, CSS, JavaScript, and modern frameworks. Committed to
+      creating
+      visually appealing and user-friendly websites for seamless and engaging web experiences✅.
+    </p>
+  </section>
 
-    <script src="js/index.js"></script>
-  </body>
+  <!-- My services -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do?</h2>
+    <div class="services">
+      <img src="img/tech-ilus.jpg" />
+      <div class="service">
+        <div class="technologies">
+          <label>JavaScript</label>
+          <label>TypeScript</label>
+          <label>React</label>
+          <label>Angular</label>
+          <label>NodeJs</label>
+          <label>HTML</label>
+          <label>CSS</label>
+          <label>React Native</label>
+          <label>Flutter</label>
+        </div>
+        <p>
+          My expertise lies in frontend development, where I specialize in creating stunning websites and user
+          interfaces using HTML, CSS, JavaScript, and React. I am proficient in various frameworks such as AngularJS,
+          React Native and Flutter. Throughout my experience, I have successfully completed numerous projects, which you
+          can explore further below.
+        </p>
+
+        <a class="resume-btn" href="img/resume.pdf" target="_blank">Resume</a>
+      </div>
+      <!-- / service -->
+
+    </div>
+    <!-- / services -->
+  </section>
+
+
+  <!-- My Work -->
+  <section class="my-work" id="work">
+    <h2 class="section__title section__title--work">Projects</h2>
+
+    <div class="projects-list">
+      <!-- COLOR SCHEME -->
+      <div class="project-card">
+        <div class="img" style="background-image: url(img/color-scheme.png);
+          "> </div>
+        <div class="project-content">
+          <div>
+            <h2 class="project-title">Color scheme generator</h2>
+            <p class="project-description">
+              The Color Scheme Generator, is a JavaScript project that enables
+              effortless creation of stunning and harmonious color palettes. With its user-friendly interface and
+              dynamic
+              real-time updates, this tool is an invaluable resource for designers seeking visually captivating and
+              well-balanced color schemes.
+            </p>
+          </div>
+          <div class="project-links">
+            <a class="code-link" href="https://github.com/mariamaitbella/color-scheme-generator" target="_blank">Source
+              code <i class="fab fa-github"></i> </a>
+            <a class="demo-link" href="https://mariamaitbella.github.io/color-scheme-generator/" target="_blank">Live
+              demo <i class="fa fa-share-square-o"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- HOME TOWN -->
+      <div class="project-card">
+        <div class="img" style="background-image: url(img/hometown.png);
+        "> </div>
+        <div class="project-content">
+          <div>
+            <h2 class="project-title">Hometown Homepage</h2>
+            <p class="project-description">
+              Experience the captivating essence of my hometown through this engaging homepage project, meticulously
+              crafted with HTML and CSS. Designed to captivate visitors, the website showcases the distinctive charm and
+              character of my beloved hometown. With a strong focus on user-friendly navigation and visually stunning
+              design, I implemented responsive layouts and customized CSS styling. Immerse yourself in the allure of my
+              hometown by exploring this project through the provided link.
+            </p>
+          </div>
+          <div class="project-links">
+            <a class="code-link" href="https://github.com/mariamaitbella/hometown" target="_blank">Source
+              code <i class="fab fa-github"></i> </a>
+            <a class="demo-link" href="https://mariamaitbella.github.io/hometown/" target="_blank">Live
+              demo <i class="fa fa-share-square-o"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- LOGIN SYSTME -->
+      <div class="project-card">
+        <div class="img" style="background-image: url(img/login/Screenshot_5.png);
+          "> </div>
+        <div class="project-content">
+          <div>
+            <h2 class="project-title">Complete login system</h2>
+            <p class="project-description">
+              Experience the simplicity and elegance of my mobile app.
+              Developed using React Native, this small-scale project highlights my proficiency in creating intuitive
+              user interfaces. Explore the sleek login screens meticulously designed to deliver a seamless user
+              experience. With a focus on clarity and precision, I demonstrate my ability to craft visually appealing
+              interfaces for mobile applications. Take a closer look at this concise yet impactful prototype by visiting
+              the provided link.
+            </p>
+          </div>
+          <div class="project-links">
+            <a class="code-link" href="https://github.com/mariamaitbella/complete_login_system" target="_blank">Source
+              code <i class="fab fa-github"></i> </a>
+            <!-- <a class="demo-link" href="https://mariamaitbella.github.io/hometown/" target="_blank">Live
+              demo <i class="fa fa-share-square-o"></i></a> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- PERSONAL TASK MANAGER -->
+      <div class="project-card">
+        <div class="img" style="background-image: url(img/task.png);
+        "> </div>
+        <div class="project-content">
+          <div>
+            <h2 class="project-title">Personal task manager</h2>
+            <p class="project-description">
+              Discover the personal task manager project. Developed using
+              React, this project showcases my skills in building intuitive user interfaces and implementing robust
+              functionality. With this task manager, you can effortlessly add tasks, specify their categories, and
+              easily filter and sort them based on your preferences. Stay on top of your to-do list with the ability to
+              mark completed tasks and clear them with a single click. Experience the seamless organization and
+              productivity boost this task manager offers by exploring the link below.
+            </p>
+          </div>
+          <div class="project-links">
+            <a class="code-link" href="https://github.com/mariamaitbella/hometown" target="_blank">Source
+              code <i class="fab fa-github"></i> </a>
+            <a class="demo-link" href="https://mariamaitbella.github.io/hometown/" target="_blank">Live
+              demo <i class="fa fa-share-square-o"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a target="_blank" class="social-list__link" href="https://twitter.com/MIMIBEL26589606">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a target="_blank" class="social-list__link" href="https://github.com/mariamaitbella">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a target="_blank" class="social-list__link" href="https://www.linkedin.com/in/mariam-ait-bella-0349a71a6/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+    </ul>
+    <p>© 2022 Mariam</p>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+
 </html>
