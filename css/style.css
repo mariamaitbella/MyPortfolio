@@ -50,6 +50,8 @@ body {
   padding: 0 128px;
 }
 
+
+
 section {
   padding: 0 38px;
 }
@@ -261,32 +263,31 @@ header {
   display: inline-block;
 }
 
-@media (min-width: 600px) {
-  .intro {
-    margin: 0 auto;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .intro__img {
-    grid-area: img;
-    min-width: 250px;
-    position: relative;
-    z-index: 2;
-  }
-
-  .section__subtitle--intro {
-    align-self: start;
-    grid-column: -1 / 1;
-    grid-row: 2;
-    text-align: right;
-    position: relative;
-    left: -1.5em;
-    width: calc(100% + 1.5em);
-  }
+.intro {
+  margin: 0 auto;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.intro__img {
+  grid-area: img;
+  min-width: 250px;
+  position: relative;
+  z-index: 2;
+}
+
+.section__subtitle--intro {
+  align-self: start;
+  grid-column: -1 / 1;
+  grid-row: 2;
+  text-align: right;
+  position: relative;
+  left: -1.5em;
+  width: calc(100% + 1.5em);
+}
+
 
 /*  My services section  */
 
@@ -535,4 +536,97 @@ header {
 .project-links {
   display: flex;
   gap: 10px;
+}
+
+
+@media (max-width: 700px) {
+  body {
+    font-size: 14px !important;
+    padding: 0 20px;
+  }
+
+  .nav__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: baseline;
+    height: 42px;
+  }
+
+  section {
+    padding: 0 0;
+    margin-top: 50px;
+  }
+
+  .section__title--intro {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .social-list__item {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  .section__title::before {
+    left: 12%;
+    bottom: 12px;
+    width: 73px;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  .technologies label {
+    padding: 6px;
+    font-size: 14px;
+  }
+
+  .project-card {
+    display: block;
+  }
+
+  .project-card .img {
+    /* width: 320px; */
+    min-width: unset;
+    border: 1px solid;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .project-title {
+    font-size: 24px;
+  }
+
+  .intro {
+    margin: unset;
+    height: unset;
+    display: block;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 700px) {
+  body {
+    padding: 0 20px;
+
+  }
+
+  .project-card .img {
+    height: 200px;
+    width: 300px;
+    min-width: 300px;
+  }
 }
