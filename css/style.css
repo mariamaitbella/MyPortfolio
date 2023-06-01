@@ -604,10 +604,11 @@ header {
     height: auto;
     min-height: 200px;
     margin-bottom: 20px;
+    max-width: 360px;
   }
 
   .project-title {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .intro {
@@ -615,6 +616,10 @@ header {
     height: unset;
     display: block;
     margin-top: 50px;
+  }
+
+  .project-description {
+    font-size: 14px;
   }
 }
 
@@ -628,5 +633,13 @@ header {
     height: 200px;
     width: 300px;
     min-width: 300px;
+  }
+}
+
+
+@media (min-width: 1040px) {
+  body {
+    padding: 0 128px;
+
   }
 }
